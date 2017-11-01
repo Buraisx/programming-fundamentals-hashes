@@ -12,3 +12,21 @@ three_words = { :genderfluid => "relating to, or a being whose gender is not fix
 fav_movies = {"Shaun of the Dead" => 2004, "Logan" => 2017, "National Treasure" => 2004}
 three_cities = {"Toronto" => 2.809*10**6, "Tokyo" => 9.273*10**6, "New York" => 8.538*10**6}
 peer_names = {"Allen" => 22, "Valerie" => 24, "Calvin" => 22, "Abnoor" => 25}
+
+# Exercise 1
+# Print out every coin flip
+coin_flip.each do |flip|
+	puts flip
+end
+# print out first favorite color
+puts "\n#{fav_colors[0]}\n\n"
+# Sort the ages and print them out
+peer_ages.sort.each do |ages|
+	puts ages
+end
+# Add new baby to family
+peer_ages<<0
+puts "\n#{peer_ages[-1]}"
+# Print out a movie
+puts "\n#{fav_movies["Logan"]}"
+
