@@ -109,7 +109,33 @@ three_counts = [{:Name => "Canada", :continent => "North America", :island => "N
 				{:Name => "Japan", :continent => "Asia", :island =>  "yes"},
 				{:Name => "USA", :continent => "North America", :island => "No"}]
 
+skateboard = []
+20.times do |i|
+	skateboard[i]= "I will not skateboard in the halls"
+	puts "I will not skateboard in the halls"
+end
 
+count50 = []
+50.times do |x|
+	count50[x]= x+1
+end
+sum = 0
+count50.each do |num|
+	sum = sum + num
+end
+puts sum
+to50 = []
+50.times do |x|
+	3.times do
+		to50<< x +1
+	end
+end
 
-
-
+newcounts = []
+three_counts.each do |findisle|
+	if findisle[:island] == "No"
+		newcounts<< findisle[:Name]
+	end
+end
+puts newcounts
+puts three_counts
