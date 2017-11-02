@@ -47,5 +47,20 @@ puts "\nThe population of Toronto is #{three_cities["Toronto"]} people"
 # sentence for every artist
 artists.each{|name| puts "I think #{name} is great."}
 
+# Exercise 3
+# Q1
+2.times do |i|
+	puts "#{artists[i]}"
+end
+# Q2
+fav_movies.each{ |movie,year| puts "#{movie} came out in #{year}"}
+# Q3
+peer_ages.sort.reverse.each{ |age| puts "#{age}"  }
+# Q4
+fav_movies["Beauty and the Beast"] = [1991,2017]
+puts "Beauty and the beast came out in #{fav_movies["Beauty and the Beast"][0]} and #{fav_movies["Beauty and the Beast"][1]}"
+
+
+
 
 
