@@ -83,3 +83,22 @@ artists.delete("Kristen Chenoweth")
 three_cities["Toronto"] = 15
 puts "#{three_cities["Toronto"] }"
 
+
+# Exercise 5
+puts "#{three_cities.values.reduce(:+)}"
+peer_names.each do |name,age|
+	if age>23
+		puts "#{name} is old."
+	else
+		puts "#{name} is young"
+	end
+end
+
+puts "#{fav_colors[-1]} and #{fav_colors[-2]}"
+peer_ages.map! do |age|
+	age += 1
+	puts "#{age}"
+end
+fav_colors << "maroon"
+fav_colors << "black"
+
