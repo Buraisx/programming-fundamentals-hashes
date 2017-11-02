@@ -102,3 +102,14 @@ end
 fav_colors << "maroon"
 fav_colors << "black"
 
+# Exercise 6
+movies = {"1999" => ["The Matrix", "Star Wars: Episode 1", "The Mummy"],"2009" => ["Avatar", "Star Trek", "District 9"],"2019" => ["How to Train Your Snake 3", "Toy Story 4", "Star Wars: Episode 9"]}
+
+three_counts = [{:Name => "Canada", :continent => "North America", :island => "No"},
+				{:Name => "Japan", :continent => "Asia", :island =>  "yes"},
+				{:Name => "USA", :continent => "North America", :island => "No"}]
+
+
+
+
+
