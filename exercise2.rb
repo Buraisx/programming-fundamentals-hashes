@@ -139,3 +139,15 @@ three_counts.each do |findisle|
 end
 puts newcounts
 puts three_counts
+
+# Exercise 7
+array_num = [250,7.95,30.95,16.50]
+array_num2 = [50,20,25,60,100]
+def expense(array_num)
+	sum = 0
+	array_num.each { |number| sum = sum +number }
+	puts sum
+end
+expense(array_num)
+expense(array_num2)
+# 
