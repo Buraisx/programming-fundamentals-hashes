@@ -150,4 +150,29 @@ def expense(array_num)
 end
 expense(array_num)
 expense(array_num2)
-# 
+
+# Exercise 9
+i = 0
+bananacounter = 0
+grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
+grocery_list << "Rice"
+grocery_list.each { |food| 
+	i += 1
+	puts " * #{food}"  
+	if food == "bananas"
+		bananacounter = 1
+	end
+
+}
+puts i
+if bananacounter == 1
+	puts "you need to pick up bananas"
+else
+	puts "you don't need to pick up bananas"
+end
+
+puts "#{grocery_list[1]}\n\n"
+puts grocery_list.sort_by{ |food| food.downcase }
+grocery_list.delete("salmon")
+grocery_list.each {|food| puts food }
+
