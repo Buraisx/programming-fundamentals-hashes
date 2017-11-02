@@ -30,3 +30,22 @@ puts "\n#{peer_ages[-1]}"
 # Print out a movie
 puts "\n#{fav_movies["Logan"]}"
 
+
+# Exercise 2
+# last element of favorite colors
+puts "\n#{fav_colors[-1]}"
+# add a new city
+three_cities["Hong Kong"] = 7.347*10**6
+puts "\n#{three_cities["Hong Kong"]}\n\n"
+# reversed coin flip
+coin_flip = coin_flip.reverse
+coin_flip.each do |flip|
+	puts flip
+end
+# population
+puts "\nThe population of Toronto is #{three_cities["Toronto"]} people"
+# sentence for every artist
+artists.each{|name| puts "I think #{name} is great."}
+
+
+
