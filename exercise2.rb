@@ -60,7 +60,26 @@ peer_ages.sort.reverse.each{ |age| puts "#{age}"  }
 fav_movies["Beauty and the Beast"] = [1991,2017]
 puts "Beauty and the beast came out in #{fav_movies["Beauty and the Beast"][0]} and #{fav_movies["Beauty and the Beast"][1]}"
 
-
-
-
+# Exercise 4
+# Q1
+peer_ages.each do |lessthan30|
+	if lessthan30 < 30
+		puts "#{lessthan30}"
+	end
+end
+# Q2
+puts "#{peer_ages.sort.last}"
+# Q3
+count = 0
+coin_flip.each do |heads|
+	if heads == "heads"
+		count = count + 1
+	end
+end
+puts "#{count} heads"
+# Q4
+artists.delete("Kristen Chenoweth")
+# Q5
+three_cities["Toronto"] = 15
+puts "#{three_cities["Toronto"] }"
 
