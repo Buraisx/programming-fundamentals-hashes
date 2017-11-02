@@ -4,6 +4,6 @@
 	elsif i%3 == 0
 		puts "Bit"
 	elsif i%5 == 0
-		puts "Maler"
+		puts "Maker"
 	end
 end
